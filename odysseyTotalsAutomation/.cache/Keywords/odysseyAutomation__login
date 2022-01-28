@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "BBDA1BDFB90098D9CA1A19CC8D3DCAE3",
+  "keywordClasses": [
+    {
+      "name": "odysseyAutomation.login",
+      "keywordMethods": [
+        {
+          "name": "loginUser",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "logoutUser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

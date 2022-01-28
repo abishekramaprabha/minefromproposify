@@ -1,0 +1,115 @@
+{
+  "keywordFileContentHash": "F57DF5B8BD38AE0BF69ADD2861E714A7",
+  "keywordClasses": [
+    {
+      "name": "odysseyAutomation.editorFunctions",
+      "keywordMethods": [
+        {
+          "name": "insertFeeTable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "importValueToFeeTable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "updateCheckboxFeeRow",
+          "parameters": [
+            {
+              "name": "feeName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "navigateToClientPreview",
+          "parameters": [
+            {
+              "name": "clientName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "addTotalVariableToProposal",
+          "parameters": [
+            {
+              "name": "newSectionName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "navigateToSnapshotFromEditor",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addingDiscountToFee",
+          "parameters": [
+            {
+              "name": "feeName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "discountPercent",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>RC Candidate URL</description>
+      <initValue>'https://app.proposify.net'</initValue>
+      <name>urlToTest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Account for Odyssey Automation</description>
+      <initValue>'abishek.rajkumar+odysseyAutomation@proposify.com'</initValue>
+      <name>loginUName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PWD for Odyssey Automation</description>
+      <initValue>'abishek1234'</initValue>
+      <name>loginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>editorTotalWidget</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>clientPreviewTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>proposalName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>feeTableTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>variableTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dashboardUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>snapshotUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="89.551" tests="1" failures="0" errors="1">
+   <testsuite name="test" tests="1" failures="0" errors="1" time="89.551" skipped="0" timestamp="2021-12-08 08:19:49" hostname="abishekramaprabha - localhost" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_081945/test/20211208_081945"/>
+         <property name="logFiles" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_081945/test/20211208_081945/execution0.log"/>
+         <property name="attachments" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_081945/test/20211208_081945/1638966072614.png"/>
+         <property name="hostName" value="abishekramaprabha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Firefox 94.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f058a794-44bb-a344-a4da-d0b63f03246c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sample/testSample" time="82.98" classname="Test Cases/Sample/testSample" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sample/testSample FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.invokeMethod(editorFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at testSample.run(testSample:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.navigateToClientPreview(editorFunctions.groovy:185)
+	... 16 more
+"/>
+         <system-out><![CDATA[2021-12-08 08:19:50 - [TEST_CASE][ERROR] - Test Cases/Sample/testSample: Test Cases/Sample/testSample FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.invokeMethod(editorFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at testSample.run(testSample:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.navigateToClientPreview(editorFunctions.groovy:185)
+	... 16 more
+
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - setDriverPreferencesProperty("Remote", "name", testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - if (suiteContext != null): null
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - setDriverPreferencesProperty("Remote", "build", suiteContext.getTestSuiteId()): null
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:19:50 - [TEST_STEP][PASSED] - println(getDriverPreferencesProperties()): null
+
+2021-12-08 08:19:51 - [TEST_STEP][PASSED] - loginUserResult = odysseyAutomation.login.loginUser(): odysseyAutomation.login.loginUser is PASSED
+
+2021-12-08 08:19:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-08 08:19:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-08 08:20:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-08 08:20:00 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-08 08:20:02 - [MESSAGE][PASSED] - Navigate to 'https://app.proposify.net' successfully
+
+2021-12-08 08:20:02 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-12-08 08:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/txt_login_Input_Your Email Address' is present
+
+2021-12-08 08:20:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:20:08 - [MESSAGE][PASSED] - Text 'abishek.rajkumar+odysseyAutomation@proposify.com' is set on object 'Object Repository/loginPage/txt_login_Input_Your Email Address'
+
+2021-12-08 08:20:09 - [MESSAGE][PASSED] - Text 'abishek1234' is set on object 'Object Repository/loginPage/txt_login_Input_Password'
+
+2021-12-08 08:20:09 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/btn_login' is present
+
+2021-12-08 08:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/btn_login' is clicked on
+
+2021-12-08 08:20:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-08 08:20:15 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/dashboard'
+
+2021-12-08 08:20:15 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/dashboard
+
+2021-12-08 08:20:15 - [MESSAGE][INFO] - User login function - successfull
+
+2021-12-08 08:20:15 - [MESSAGE][PASSED] - odysseyAutomation.login.loginUser is PASSED
+
+2021-12-08 08:20:15 - [TEST_STEP][PASSED] - if (loginUserResult == true): null
+
+2021-12-08 08:20:15 - [TEST_STEP][PASSED] - comment("User login successful"): User login successful
+
+2021-12-08 08:20:15 - [MESSAGE][INFO] - User login successful
+
+2021-12-08 08:20:15 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:20:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-08 08:20:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:20:18 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2021-12-08 08:20:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:20:18 - [TEST_STEP][PASSED] - proposalCreationResult = odysseyAutomation.createProposal.proposalCreation(): odysseyAutomation.createProposal.proposalCreation is PASSED
+
+2021-12-08 08:20:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:20:18 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/dashboard'
+
+2021-12-08 08:20:18 - [MESSAGE][INFO] - OdysseyAutomationTest 12/08/21 08:20AM
+
+2021-12-08 08:20:19 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net//proposal/settings' successfully
+
+2021-12-08 08:20:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:20:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/textbox_proposalName' is clicked on
+
+2021-12-08 08:20:22 - [MESSAGE][PASSED] - Text 'OdysseyAutomationTest 12/08/21 08:20AM' is set on object 'Object Repository/proposalSettingsPage/textbox_proposalName'
+
+2021-12-08 08:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/dropdown_clientName' is clicked on
+
+2021-12-08 08:20:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/text_clientExampleCompany' is clicked on
+
+2021-12-08 08:20:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/button_nextStep' is clicked on
+
+2021-12-08 08:20:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:20:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:20:31 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239063'
+
+2021-12-08 08:20:31 - [MESSAGE][INFO] - Proposal creation function - successfull
+
+2021-12-08 08:20:31 - [MESSAGE][PASSED] - odysseyAutomation.createProposal.proposalCreation is PASSED
+
+2021-12-08 08:20:31 - [TEST_STEP][PASSED] - if (proposalCreationResult == true): null
+
+2021-12-08 08:20:31 - [TEST_STEP][PASSED] - comment("Proposal creation successful"): Proposal creation successful
+
+2021-12-08 08:20:31 - [MESSAGE][INFO] - Proposal creation successful
+
+2021-12-08 08:20:31 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:20:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-08 08:20:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:20:34 - [TEST_STEP][PASSED] - feeTableInsertionResult = odysseyAutomation.editorFunctions.insertFeeTable(): odysseyAutomation.editorFunctions.insertFeeTable is PASSED
+
+2021-12-08 08:20:34 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239063'
+
+2021-12-08 08:20:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/text_contentSectionTitleName' is clicked on
+
+2021-12-08 08:20:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/placeholder_masterTextBox_contentSection' is clicked on
+
+2021-12-08 08:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/button_feeTableSign' is clicked on
+
+2021-12-08 08:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/button_addPricingTable' is clicked on
+
+2021-12-08 08:20:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/btn_saveButton' is clicked on
+
+2021-12-08 08:20:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:44 - [MESSAGE][PASSED] - odysseyAutomation.editorFunctions.insertFeeTable is PASSED
+
+2021-12-08 08:20:44 - [TEST_STEP][PASSED] - if (feeTableInsertionResult == true): null
+
+2021-12-08 08:20:44 - [TEST_STEP][PASSED] - comment("Fee table insertion successful"): Fee table insertion successful
+
+2021-12-08 08:20:44 - [MESSAGE][INFO] - Fee table insertion successful
+
+2021-12-08 08:20:44 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:20:44 - [TEST_STEP][PASSED] - feeValueImportResult = odysseyAutomation.editorFunctions.importValueToFeeTable("400", "10"): odysseyAutomation.editorFunctions.importValueToFeeTable is PASSED
+
+2021-12-08 08:20:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/feeTable' is clicked on
+
+2021-12-08 08:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/unit_feeTitle' is clicked on
+
+2021-12-08 08:20:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/btn_addRowBelow' is clicked on
+
+2021-12-08 08:20:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/dropdwn_feeTypeSelect_addRow' is clicked on
+
+2021-12-08 08:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/dropdwn_importFee_listOption' is clicked on
+
+2021-12-08 08:21:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/importFee_testFee_hardcoded' is clicked on
+
+2021-12-08 08:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/btn_addToTable_importFee' is clicked on
+
+2021-12-08 08:21:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:21:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/editorPage/totalPane' is: '$4,000.00'
+
+2021-12-08 08:21:06 - [MESSAGE][INFO] - $4,000.00
+
+2021-12-08 08:21:06 - [MESSAGE][INFO] - Import values table function - successful
+
+2021-12-08 08:21:06 - [MESSAGE][INFO] - Verified Total
+
+2021-12-08 08:21:06 - [MESSAGE][PASSED] - odysseyAutomation.editorFunctions.importValueToFeeTable is PASSED
+
+2021-12-08 08:21:06 - [TEST_STEP][PASSED] - if (feeValueImportResult == true): null
+
+2021-12-08 08:21:06 - [TEST_STEP][PASSED] - comment("Fee value import successful"): Fee value import successful
+
+2021-12-08 08:21:06 - [MESSAGE][INFO] - Fee value import successful
+
+2021-12-08 08:21:06 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:21:06 - [TEST_STEP][ERROR] - navigateToClientPreviewResult = odysseyAutomation.editorFunctions.navigateToClientPreview("John Doe"): groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+
+2021-12-08 08:21:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:21:08 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239063'
+
+2021-12-08 08:21:08 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/proposal/send/1239063
+
+2021-12-08 08:21:08 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net/proposal/send/1239063' successfully
+
+2021-12-08 08:21:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:21:12 - [MESSAGE][PASSED] - Attribute 'data-url' of object '' is: 'https://proposify-043487.proposify.net/preview/aVAwc3F6amtISXhJRTJ2LzN4VzVkdz09/p0cMrbbbbbc'
+
+2021-12-08 08:21:12 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/preview/aVAwc3F6amtISXhJRTJ2LzN4VzVkdz09/p0cMrbbbbbc
+
+2021-12-08 08:21:12 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net/preview/aVAwc3F6amtISXhJRTJ2LzN4VzVkdz09/p0cMrbbbbbc' successfully
+
+2021-12-08 08:21:12 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/preview/aVAwc3F6amtISXhJRTJ2LzN4VzVkdz09/p0cMrbbbbbc'
+
+2021-12-08 08:21:12 - [MESSAGE][INFO] - Client preview page load function - Successful
+
+2021-12-08 08:21:12 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+
+2021-12-08 08:21:12 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: null
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - result = "failed": null
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equalsIgnoreCase("PASSED")): null
+
+2021-12-08 08:21:12 - [TEST_STEP][FAILED] - try: Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$10.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: org.openqa.selenium.JavascriptException: SyntaxError: invalid assignment left-hand side
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1080, moz:profile: /var/folders/rs/9105y6991bz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.3.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f058a794-44bb-a344-a4da-d0b63f03246c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-12-08 08:21:12 - [TEST_STEP][FAILED] - executeJavaScript("lambda-status=" + result, null): Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$10.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: org.openqa.selenium.JavascriptException: SyntaxError: invalid assignment left-hand side
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1080, moz:profile: /var/folders/rs/9105y6991bz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.3.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f058a794-44bb-a344-a4da-d0b63f03246c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-12-08 08:21:12 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$10.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: org.openqa.selenium.JavascriptException: SyntaxError: invalid assignment left-hand side
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1080, moz:profile: /var/folders/rs/9105y6991bz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.3.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f058a794-44bb-a344-a4da-d0b63f03246c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_081945/test/20211208_081945/1638966072614.png]]
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - println(e.toString()): null
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2021-12-08 08:21:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-08 08:21:13 - [MESSAGE][PASSED] - Browser is closed
+
+2021-12-08 08:21:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:21:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-12-08 08:19:50 - [TEST_CASE][ERROR] - Test Cases/Sample/testSample: Test Cases/Sample/testSample FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.invokeMethod(editorFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at testSample.run(testSample:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.navigateToClientPreview(editorFunctions.groovy:185)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-08 08:19:49 - [TEST_SUITE][ERROR] - test: Test Cases/Sample/testSample FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.invokeMethod(editorFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at testSample.run(testSample:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.navigateToClientPreview(editorFunctions.groovy:185)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2021-12-08 08:19:49 - [TEST_SUITE][ERROR] - test: Test Cases/Sample/testSample FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.invokeMethod(editorFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at testSample.run(testSample:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638965985528.run(TempTestSuite1638965985528.groovy:39)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.comment() is applicable for argument types: (java.lang.Integer) values: [400000]
+Possible solutions: comment(java.lang.String), collect(), collect(groovy.lang.Closure), collect(java.util.Collection, groovy.lang.Closure)
+	at odysseyAutomation.editorFunctions.navigateToClientPreview(editorFunctions.groovy:185)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

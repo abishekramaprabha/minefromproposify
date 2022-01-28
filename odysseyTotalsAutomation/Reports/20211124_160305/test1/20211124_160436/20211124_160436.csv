@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,,,,2021-11-24 16:05:59,2021-11-24 16:06:00,0.975s,PASSED
+,,,,,,,
+Test Cases/Sample/test1,,,,2021-11-24 16:06:00,2021-11-24 16:06:00,0.439s,PASSED
+"comment(""Another test case: "" + loginPassword)",,,,2021-11-24 16:06:00,2021-11-24 16:06:00,0.157s,PASSED

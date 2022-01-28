@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="4.928" tests="2" failures="0" errors="0">
+   <testsuite name="test" tests="2" failures="0" errors="0" time="4.928" skipped="0" timestamp="2021-11-24 15:38:23" hostname="abishekramaprabha - localhost" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211124_153816/test/20211124_153817"/>
+         <property name="logFiles" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211124_153816/test/20211124_153817/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abishekramaprabha - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Sample/test" time="0.472" classname="Test Cases/Sample/test" status="PASSED">
+         <system-out><![CDATA[2021-11-24 15:38:24 - [TEST_CASE][PASSED] - Test Cases/Sample/test: Test Cases/Sample/test
+
+2021-11-24 15:38:24 - [TEST_STEP][PASSED] - pass = "Sample test check": null
+
+2021-11-24 15:38:24 - [TEST_STEP][PASSED] - loginPassword = pass: null
+
+2021-11-24 15:38:24 - [TEST_STEP][PASSED] - out.println("Global Variable Value: " + loginPassword): null
+
+2021-11-24 15:38:24 - [TEST_STEP][PASSED] - out.println("Original: " + pass): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sample/test1" time="0.247" classname="Test Cases/Sample/test1" status="PASSED">
+         <system-out><![CDATA[2021-11-24 15:38:24 - [TEST_CASE][PASSED] - Test Cases/Sample/test1: Test Cases/Sample/test1
+
+2021-11-24 15:38:25 - [TEST_STEP][PASSED] - out.println("Another test case: " + loginPassword): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-24 15:38:23 - [TEST_SUITE][PASSED] - test: Test Cases/Sample/test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

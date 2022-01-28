@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Firefox 94.0,,,2021-12-08 08:27:29,2021-12-08 08:28:40,1m - 11.247s,PASSED
+,,,,,,,
+Test Cases/Sample/testSample,Firefox 94.0,,,2021-12-08 08:27:29,2021-12-08 08:28:40,1m - 10.670s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 94.0,,,2021-12-08 08:27:29,2021-12-08 08:27:29,0.013s,PASSED
+loginUserResult = odysseyAutomation.login.loginUser(),Firefox 94.0,,,2021-12-08 08:27:30,2021-12-08 08:27:48,18.560s,PASSED
+if (loginUserResult == true),Firefox 94.0,,,2021-12-08 08:27:48,2021-12-08 08:27:48,0.004s,PASSED
+delay(3),Firefox 94.0,,,2021-12-08 08:27:48,2021-12-08 08:27:51,3.005s,PASSED
+waitForPageLoad(10),Firefox 94.0,,,2021-12-08 08:27:51,2021-12-08 08:27:51,0.173s,PASSED
+proposalCreationResult = odysseyAutomation.createProposal.proposalCreation(),Firefox 94.0,,,2021-12-08 08:27:51,2021-12-08 08:28:04,13.026s,PASSED
+if (proposalCreationResult == true),Firefox 94.0,,,2021-12-08 08:28:04,2021-12-08 08:28:04,0.003s,PASSED
+delay(3),Firefox 94.0,,,2021-12-08 08:28:04,2021-12-08 08:28:07,3.008s,PASSED
+feeTableInsertionResult = odysseyAutomation.editorFunctions.insertFeeTable(),Firefox 94.0,,,2021-12-08 08:28:07,2021-12-08 08:28:17,9.293s,PASSED
+if (feeTableInsertionResult == true),Firefox 94.0,,,2021-12-08 08:28:17,2021-12-08 08:28:17,0.006s,PASSED
+"feeValueImportResult = odysseyAutomation.editorFunctions.importValueToFeeTable(""400"", ""10"")",Firefox 94.0,,,2021-12-08 08:28:17,2021-12-08 08:28:30,13.471s,PASSED
+if (feeValueImportResult == true),Firefox 94.0,,,2021-12-08 08:28:30,2021-12-08 08:28:30,0.002s,PASSED
+"navigateToClientPreviewResult = odysseyAutomation.editorFunctions.navigateToClientPreview(""John Doe"")",Firefox 94.0,,,2021-12-08 08:28:30,2021-12-08 08:28:39,9.069s,PASSED
+if (navigateToClientPreviewResult == true),Firefox 94.0,,,2021-12-08 08:28:39,2021-12-08 08:28:39,0.003s,PASSED
+clientPreviewTotalResult = true,Firefox 94.0,,,2021-12-08 08:28:39,2021-12-08 08:28:39,0.000s,PASSED
+if (clientPreviewTotalResult == true),Firefox 94.0,,,2021-12-08 08:28:39,2021-12-08 08:28:39,0.003s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-08 08:28:39,2021-12-08 08:28:40,0.644s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 94.0,,,2021-12-08 08:28:40,2021-12-08 08:28:40,0.062s,FAILED

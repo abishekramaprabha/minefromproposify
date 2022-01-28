@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2021-11-24 15:36:29,2021-11-24 15:36:30,1.259s,PASSED
+,,,,,,,
+Test Cases/Sample/test,,,,2021-11-24 15:36:29,2021-11-24 15:36:30,0.462s,PASSED
+"pass = ""test""",,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.001s,PASSED
+loginPassword = pass,,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.127s,PASSED
+out.println(loginPassword),,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.012s,PASSED
+out.println(pass),,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.000s,PASSED
+,,,,,,,
+Test Cases/Sample/test1,,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.250s,PASSED
+out.println(loginPassword),,,,2021-11-24 15:36:30,2021-11-24 15:36:30,0.001s,PASSED

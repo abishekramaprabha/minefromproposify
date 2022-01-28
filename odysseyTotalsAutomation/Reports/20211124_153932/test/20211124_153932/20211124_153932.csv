@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2021-11-24 15:39:38,2021-11-24 15:39:40,1.248s,PASSED
+,,,,,,,
+Test Cases/Sample/test,,,,2021-11-24 15:39:39,2021-11-24 15:39:39,0.470s,PASSED
+"pass = ""Sample test check""",,,,2021-11-24 15:39:39,2021-11-24 15:39:39,0.001s,PASSED
+loginPassword = pass,,,,2021-11-24 15:39:39,2021-11-24 15:39:39,0.121s,PASSED
+"out.println(""Global Variable Value: "" + loginPassword)",,,,2021-11-24 15:39:39,2021-11-24 15:39:39,0.012s,PASSED
+"out.println(""Original: "" + pass)",,,,2021-11-24 15:39:39,2021-11-24 15:39:39,0.001s,PASSED
+,,,,,,,
+Test Cases/Sample/test1,,,,2021-11-24 15:39:39,2021-11-24 15:39:40,0.233s,PASSED
+"out.println(""Another test case: "" + loginPassword)",,,,2021-11-24 15:39:40,2021-11-24 15:39:40,0.001s,PASSED

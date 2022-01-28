@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="75.375" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="75.375" skipped="0" timestamp="2021-12-08 08:27:29" hostname="abishekramaprabha - 192.168.2.18" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_082724/test/20211208_082725"/>
+         <property name="logFiles" value="/Users/abishekramaprabha/Odyssey_Automation/odysseyTotalsAutomation/Reports/20211208_082724/test/20211208_082725/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abishekramaprabha - 192.168.2.18"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.0.208"/>
+         <property name="browser" value="Firefox 94.0"/>
+         <property name="hostAddress" value="192.168.2.18"/>
+         <property name="sessionId" value="60d9fb78-80ac-0746-abe1-8cb8316f7e89"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sample/testSample" time="70.67" classname="Test Cases/Sample/testSample" status="PASSED">
+         <system-out><![CDATA[2021-12-08 08:27:29 - [TEST_CASE][PASSED] - Test Cases/Sample/testSample: Test Cases/Sample/testSample
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - setDriverPreferencesProperty("Remote", "name", testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - if (suiteContext != null): null
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - setDriverPreferencesProperty("Remote", "build", suiteContext.getTestSuiteId()): null
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:27:29 - [TEST_STEP][PASSED] - println(getDriverPreferencesProperties()): null
+
+2021-12-08 08:27:30 - [TEST_STEP][PASSED] - loginUserResult = odysseyAutomation.login.loginUser(): odysseyAutomation.login.loginUser is PASSED
+
+2021-12-08 08:27:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-08 08:27:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-08 08:27:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-08 08:27:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-08 08:27:35 - [MESSAGE][PASSED] - Navigate to 'https://app.proposify.net' successfully
+
+2021-12-08 08:27:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-12-08 08:27:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/txt_login_Input_Your Email Address' is present
+
+2021-12-08 08:27:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:27:41 - [MESSAGE][PASSED] - Text 'abishek.rajkumar+odysseyAutomation@proposify.com' is set on object 'Object Repository/loginPage/txt_login_Input_Your Email Address'
+
+2021-12-08 08:27:42 - [MESSAGE][PASSED] - Text 'abishek1234' is set on object 'Object Repository/loginPage/txt_login_Input_Password'
+
+2021-12-08 08:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/loginPage/btn_login' is present
+
+2021-12-08 08:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/loginPage/btn_login' is clicked on
+
+2021-12-08 08:27:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-08 08:27:48 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/dashboard'
+
+2021-12-08 08:27:48 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/dashboard
+
+2021-12-08 08:27:48 - [MESSAGE][INFO] - User login function - successfull
+
+2021-12-08 08:27:48 - [MESSAGE][PASSED] - odysseyAutomation.login.loginUser is PASSED
+
+2021-12-08 08:27:48 - [TEST_STEP][PASSED] - if (loginUserResult == true): null
+
+2021-12-08 08:27:48 - [TEST_STEP][PASSED] - comment("User login successful"): User login successful
+
+2021-12-08 08:27:48 - [MESSAGE][INFO] - User login successful
+
+2021-12-08 08:27:48 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:27:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-08 08:27:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:27:51 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2021-12-08 08:27:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:27:51 - [TEST_STEP][PASSED] - proposalCreationResult = odysseyAutomation.createProposal.proposalCreation(): odysseyAutomation.createProposal.proposalCreation is PASSED
+
+2021-12-08 08:27:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:27:51 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/dashboard'
+
+2021-12-08 08:27:51 - [MESSAGE][INFO] - OdysseyAutomationTest 12/08/21 08:27AM
+
+2021-12-08 08:27:52 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net//proposal/settings' successfully
+
+2021-12-08 08:27:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:27:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/textbox_proposalName' is clicked on
+
+2021-12-08 08:27:55 - [MESSAGE][PASSED] - Text 'OdysseyAutomationTest 12/08/21 08:27AM' is set on object 'Object Repository/proposalSettingsPage/textbox_proposalName'
+
+2021-12-08 08:27:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/dropdown_clientName' is clicked on
+
+2021-12-08 08:27:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/text_clientExampleCompany' is clicked on
+
+2021-12-08 08:28:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/proposalSettingsPage/button_nextStep' is clicked on
+
+2021-12-08 08:28:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-08 08:28:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:28:04 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239065'
+
+2021-12-08 08:28:04 - [MESSAGE][INFO] - Proposal creation function - successfull
+
+2021-12-08 08:28:04 - [MESSAGE][PASSED] - odysseyAutomation.createProposal.proposalCreation is PASSED
+
+2021-12-08 08:28:04 - [TEST_STEP][PASSED] - if (proposalCreationResult == true): null
+
+2021-12-08 08:28:04 - [TEST_STEP][PASSED] - comment("Proposal creation successful"): Proposal creation successful
+
+2021-12-08 08:28:04 - [MESSAGE][INFO] - Proposal creation successful
+
+2021-12-08 08:28:04 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:28:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-08 08:28:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:28:07 - [TEST_STEP][PASSED] - feeTableInsertionResult = odysseyAutomation.editorFunctions.insertFeeTable(): odysseyAutomation.editorFunctions.insertFeeTable is PASSED
+
+2021-12-08 08:28:07 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239065'
+
+2021-12-08 08:28:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/text_contentSectionTitleName' is clicked on
+
+2021-12-08 08:28:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/placeholder_masterTextBox_contentSection' is clicked on
+
+2021-12-08 08:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/button_feeTableSign' is clicked on
+
+2021-12-08 08:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/button_addPricingTable' is clicked on
+
+2021-12-08 08:28:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/btn_saveButton' is clicked on
+
+2021-12-08 08:28:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:17 - [MESSAGE][PASSED] - odysseyAutomation.editorFunctions.insertFeeTable is PASSED
+
+2021-12-08 08:28:17 - [TEST_STEP][PASSED] - if (feeTableInsertionResult == true): null
+
+2021-12-08 08:28:17 - [TEST_STEP][PASSED] - comment("Fee table insertion successful"): Fee table insertion successful
+
+2021-12-08 08:28:17 - [MESSAGE][INFO] - Fee table insertion successful
+
+2021-12-08 08:28:17 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:28:17 - [TEST_STEP][PASSED] - feeValueImportResult = odysseyAutomation.editorFunctions.importValueToFeeTable("400", "10"): odysseyAutomation.editorFunctions.importValueToFeeTable is PASSED
+
+2021-12-08 08:28:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/feeTable' is clicked on
+
+2021-12-08 08:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/unit_feeTitle' is clicked on
+
+2021-12-08 08:28:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/btn_addRowBelow' is clicked on
+
+2021-12-08 08:28:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-08 08:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/dropdwn_feeTypeSelect_addRow' is clicked on
+
+2021-12-08 08:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/dropdwn_importFee_listOption' is clicked on
+
+2021-12-08 08:28:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/importFee_testFee_hardcoded' is clicked on
+
+2021-12-08 08:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/editorPage/Feetable/Hardcoded/btn_addToTable_importFee' is clicked on
+
+2021-12-08 08:28:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:28:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/editorPage/totalPane' is: '$4,000.00'
+
+2021-12-08 08:28:30 - [MESSAGE][INFO] - $4,000.00
+
+2021-12-08 08:28:30 - [MESSAGE][INFO] - Import values table function - successful
+
+2021-12-08 08:28:30 - [MESSAGE][INFO] - Verified Total
+
+2021-12-08 08:28:30 - [MESSAGE][PASSED] - odysseyAutomation.editorFunctions.importValueToFeeTable is PASSED
+
+2021-12-08 08:28:30 - [TEST_STEP][PASSED] - if (feeValueImportResult == true): null
+
+2021-12-08 08:28:30 - [TEST_STEP][PASSED] - comment("Fee value import successful"): Fee value import successful
+
+2021-12-08 08:28:30 - [MESSAGE][INFO] - Fee value import successful
+
+2021-12-08 08:28:30 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:28:30 - [TEST_STEP][PASSED] - navigateToClientPreviewResult = odysseyAutomation.editorFunctions.navigateToClientPreview("John Doe"): odysseyAutomation.editorFunctions.navigateToClientPreview is PASSED
+
+2021-12-08 08:28:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-08 08:28:32 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/proposal/edit/1239065'
+
+2021-12-08 08:28:32 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/proposal/send/1239065
+
+2021-12-08 08:28:33 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net/proposal/send/1239065' successfully
+
+2021-12-08 08:28:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:28:36 - [MESSAGE][PASSED] - Attribute 'data-url' of object '' is: 'https://proposify-043487.proposify.net/preview/dXpTOWU5V1NWR1RxVUNQb3FFTmJQZz09/p0cMrbbbbbc'
+
+2021-12-08 08:28:36 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/preview/dXpTOWU5V1NWR1RxVUNQb3FFTmJQZz09/p0cMrbbbbbc
+
+2021-12-08 08:28:36 - [MESSAGE][PASSED] - Navigate to 'https://proposify-043487.proposify.net/preview/dXpTOWU5V1NWR1RxVUNQb3FFTmJQZz09/p0cMrbbbbbc' successfully
+
+2021-12-08 08:28:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-08 08:28:39 - [MESSAGE][PASSED] - Current window's url is: 'https://proposify-043487.proposify.net/preview/dXpTOWU5V1NWR1RxVUNQb3FFTmJQZz09/p0cMrbbbbbc'
+
+2021-12-08 08:28:39 - [MESSAGE][INFO] - https://proposify-043487.proposify.net/preview/dXpTOWU5V1NWR1RxVUNQb3FFTmJQZz09/p0cMrbbbbbc
+
+2021-12-08 08:28:39 - [MESSAGE][INFO] - Client preview page load function - Successful
+
+2021-12-08 08:28:39 - [MESSAGE][PASSED] - odysseyAutomation.editorFunctions.navigateToClientPreview is PASSED
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - if (navigateToClientPreviewResult == true): null
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - comment("Client Preview page navigation successful"): Client Preview page navigation successful
+
+2021-12-08 08:28:39 - [MESSAGE][INFO] - Client Preview page navigation successful
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - clientPreviewTotalResult = true: null
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - if (clientPreviewTotalResult == true): null
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - comment("Client preview has accurate total value"): Client preview has accurate total value
+
+2021-12-08 08:28:39 - [MESSAGE][INFO] - Client preview has accurate total value
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - assert true: null
+
+2021-12-08 08:28:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-08 08:28:40 - [MESSAGE][PASSED] - Browser is closed
+
+2021-12-08 08:28:40 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - result = "failed": null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equalsIgnoreCase("PASSED")): null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - result = "passed": null
+
+2021-12-08 08:28:40 - [TEST_STEP][FAILED] - try: Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$11.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638966445877.run(TempTestSuite1638966445877.groovy:39)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-12-08 08:28:40 - [TEST_STEP][FAILED] - executeJavaScript("lambda-status=" + result, null): Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$11.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638966445877.run(TempTestSuite1638966445877.groovy:39)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-12-08 08:28:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-12-08 08:28:40 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4814)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$11.call(Unknown Source)
+	at LambdaListener.sampleAfterTestCase(LambdaListener.groovy:61)
+	at LambdaListener.invokeMethod(LambdaListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:278)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638966445877.run(TempTestSuite1638966445877.groovy:39)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Abishek-Office-laptop.local', ip: 'fe80:0:0:0:8e4:e7e3:8152:2a76%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - println(e.toString()): null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-08 08:28:40 - [MESSAGE][PASSED] - Browser is closed
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-12-08 08:28:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-08 08:27:29 - [TEST_SUITE][PASSED] - test: Test Cases/Sample/testSample]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

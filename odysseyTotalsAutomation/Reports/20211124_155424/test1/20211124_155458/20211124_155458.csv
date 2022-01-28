@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,,,,2021-11-24 15:55:21,2021-11-24 15:55:22,0.930s,PASSED
+,,,,,,,
+Test Cases/Sample/test1,,,,2021-11-24 15:55:22,2021-11-24 15:55:22,0.397s,PASSED
+"out.println(""Another test case: "" + loginPassword)",,,,2021-11-24 15:55:22,2021-11-24 15:55:22,0.126s,PASSED

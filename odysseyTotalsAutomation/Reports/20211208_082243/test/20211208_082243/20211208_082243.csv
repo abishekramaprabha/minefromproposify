@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Firefox 94.0,,,2021-12-08 08:22:47,2021-12-08 08:23:59,1m - 12.502s,ERROR
+,,,,,,,
+Test Cases/Sample/testSample,Firefox 94.0,,,2021-12-08 08:22:47,2021-12-08 08:23:59,1m - 11.935s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 94.0,,,2021-12-08 08:22:47,2021-12-08 08:22:47,0.016s,PASSED
+loginUserResult = odysseyAutomation.login.loginUser(),Firefox 94.0,,,2021-12-08 08:22:47,2021-12-08 08:23:07,19.597s,PASSED
+if (loginUserResult == true),Firefox 94.0,,,2021-12-08 08:23:07,2021-12-08 08:23:07,0.003s,PASSED
+delay(3),Firefox 94.0,,,2021-12-08 08:23:07,2021-12-08 08:23:10,3.008s,PASSED
+waitForPageLoad(10),Firefox 94.0,,,2021-12-08 08:23:10,2021-12-08 08:23:10,0.094s,PASSED
+proposalCreationResult = odysseyAutomation.createProposal.proposalCreation(),Firefox 94.0,,,2021-12-08 08:23:10,2021-12-08 08:23:23,13.125s,PASSED
+if (proposalCreationResult == true),Firefox 94.0,,,2021-12-08 08:23:23,2021-12-08 08:23:23,0.003s,PASSED
+delay(3),Firefox 94.0,,,2021-12-08 08:23:23,2021-12-08 08:23:26,3.007s,PASSED
+feeTableInsertionResult = odysseyAutomation.editorFunctions.insertFeeTable(),Firefox 94.0,,,2021-12-08 08:23:26,2021-12-08 08:23:35,8.874s,PASSED
+if (feeTableInsertionResult == true),Firefox 94.0,,,2021-12-08 08:23:35,2021-12-08 08:23:35,0.006s,PASSED
+"feeValueImportResult = odysseyAutomation.editorFunctions.importValueToFeeTable(""400"", ""10"")",Firefox 94.0,,,2021-12-08 08:23:35,2021-12-08 08:23:49,13.670s,PASSED
+if (feeValueImportResult == true),Firefox 94.0,,,2021-12-08 08:23:49,2021-12-08 08:23:49,0.002s,PASSED
+"navigateToClientPreviewResult = odysseyAutomation.editorFunctions.navigateToClientPreview(""John Doe"")",Firefox 94.0,,,2021-12-08 08:23:49,2021-12-08 08:23:58,9.162s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 94.0,,,2021-12-08 08:23:58,2021-12-08 08:23:59,0.984s,FAILED
